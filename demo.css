@@ -1,0 +1,114 @@
+
+.header{
+    
+    width: 100%;
+    margin: auto;
+    height: 55px;
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content:flex-end;
+    position: sticky;
+    top: 0%;
+}
+.logo{
+    /* padding-right: 100px;
+    display: inline;
+    justify-content: left; */
+}
+.search{
+    display: inline;
+    justify-content:right;
+}
+.search button{
+    font-family: cursive;
+    font-size: 14px;
+   color: rgb(87, 87, 87);
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 300px;
+    cursor:text;
+   
+    
+}
+.bg{
+    /* background-image: url(./photo-1575936123452-b67c3203c357.jpeg);
+    position: relative;
+    
+    align-items: center; */
+    background-color: bisque;
+}
+.highlight{
+/* background-image: url(./photo-1575936123452-b67c3203c357.jpeg) ; */
+/* height:100%;
+width: 100%; */
+background-position:right top;
+background-size:cover;
+/* background-repeat:repeat-x; */
+}
+/* .highlight h5{
+    color: rgb(196, 214, 214);
+}
+.highlight h4{
+    color: rgb(131, 144, 144);
+} */
+ h4{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(202, 202, 234);
+    opacity: 0.2px;
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 1px;
+    border-left-color: rgb(150, 150, 216);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+ }
+ p{
+    border-style: dotted;
+ }
+ .dip{
+    /* align-items: center;
+    justify-content: center; */
+    width: auto;
+    margin: auto;
+    border-style: dotted;
+ }
+ h5{
+    /* width: 400px; */
+    text-align: center;
+    margin: 40px;
+ }
+ 
+  div{
+   margin: auto;
+    padding-top: 10px;/
+
+ }
+
+ .navbar img{
+ height: 150px;
+    width: 200px;
+    padding:0px 30px;
+ }
+ .lorem h1{
+    text-align: center;
+  text-shadow: 3px 3px rgba(112, 112, 112, 0.336);
+
+ }
+ .lorem{
+    display: grid;
+ }
+ .group{
+    display: flex;
+    justify-content:space-evenly;
+ }
+ .tableinfo {
+    display: flex;
+    justify-content: center;
+ }
+ .tableinfo table{
+    border: 2px solid;
+    text-align: center;
+ }
