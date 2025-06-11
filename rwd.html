@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+  box-sizing: border-box;
+}
+.container{
+    overflow: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    
+}
+.body{
+  margin: 10px 0;
+  
+  /* float: left; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(234, 236, 236);
+}
+#image1{
+    border: 1px solid rgb(167, 164, 164);
+   padding: 5px;
+    
+}
+@media only screen and (max-width: 1024px) {
+#image1{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 768px) {
+#image1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background-color: rgb(203, 205, 205);padding: 8px;text-align: center;">
+            <h2>lorem</h2>
+        </div>
+        <div class="body">
+            <div id="image1"><img src="./taj-mahal.jpg" alt="tajmahal" width="200px" height="200px">
+             <div class="desc">TAJ MAHAL</div>
+            </div>
+            <div id="image1"><img src="./china.jpeg" alt="china" width="200px" height="200px">
+             <div class="desc">great wall</div>
+            </div>
+            <div id="image1"><img src="./eifel.jpeg" alt="eifel" width="200px" height="200px">
+             <div class="desc">eiffel tower</div>
+            </div>
+            <div id="image1"><img src="./leaning towerodpisa.jpeg" alt="piza" width="200px" height="200px">
+             <div class="desc">leaning tower of pisa</div>
+            </div>
+        </div>
+        <div class="footer" style="background-color: rgb(203, 205, 205);width: 100% ;text-align: center;padding: 8px;">
+            <h2>lorem</h2>
+        </div>
+    </div>
+</body>
+</html>
